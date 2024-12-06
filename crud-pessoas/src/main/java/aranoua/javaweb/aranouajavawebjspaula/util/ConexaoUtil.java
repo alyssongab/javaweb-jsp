@@ -14,8 +14,8 @@ public class ConexaoUtil {
     public ConexaoUtil() {
 
         this.url = "jdbc:mysql://localhost:3306/javaweb_jsp";
-        this.usuario = "root";
-        this.senha = "Aly@4341";
+        this.usuario = ""; // usuário do banco de dados
+        this.senha = ""; // senha do banco de dados
 
     }
 
