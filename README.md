@@ -5,6 +5,7 @@ Este projeto é uma aplicação web construída com Java, JSP, Tomcat e MySQL, c
 - Java 17
 - JSP (Java Server Pages)
 - MySQL (Versão 8.4.3)
+- MySQL (Versão 8.0.4)
 - Apache Tomcat (11.0.1)
 - JDBC (Java Database Connectivity)
 ## Funcionalidades
@@ -22,9 +23,8 @@ Este projeto é uma aplicação web construída com Java, JSP, Tomcat e MySQL, c
 ### Instalação
 #### Passo 1: Clonar o repositório
 ```bash
-git clone https://github.com/alyssongab/javaweb-jsp.git
-cd javaweb-jsp/crud-pessoas
-
+    git clone https://github.com/alyssongab/javaweb-jsp.git
+    cd javaweb-jsp/crud-pessoas
 ```
 #### Passo 2: Configurar o banco de dados
 1. Criar um banco de dados chamado javaweb_jsp no MySQL.
@@ -40,7 +40,7 @@ cd javaweb-jsp/crud-pessoas
 #### Passo 3: Configurar as credenciais no código
 1. Abrir o arquivo `ConexaoUtil.java` localizado em:
 ```bash
-src/main/java/aranoua/javaweb/aranouajavawebjspaula/util/ConexaoUtil.java
+    src/main/java/aranoua/javaweb/aranouajavawebjspaula/util/ConexaoUtil.java
 ```
 2. Localizar o seguinte trecho:
 ```java
@@ -59,3 +59,22 @@ public ConexaoUtil() {
 }
 ```
 #### Passo 4: Deploy no Tomcat
+1. Compile o projeto com sua IDE (IntelliJ IDEA, Eclipse, etc.) ou utilizando Maven:
+```bash
+    mvn clean package
+```
+2. Copiar o arquivo WAR gerado para o diretório webapps do Tomcat ou configure o Tomcat diretamente na sua IDE.
+
+3. Iniciar o servidor
+- Linux/MacOS:
+```bash
+    ./bin/catalina.sh run
+```
+- Windows:
+```bash
+    .\bin\catalina.bat run
+```
+4. Acessar o sistema no navegador:
+```bash 
+    http://localhost:8080/nome-do-projeto
+```
