@@ -1,11 +1,6 @@
 <%@ page import="aranoua.javaweb.aranouajavawebjspaula.dao.PessoaDao" %>
-<%@ page import="aranoua.javaweb.aranouajavawebjspaula.model.Pessoa" %><%--
-  Created by IntelliJ IDEA.
-  User: rogerio.carmine
-  Date: 04/12/24
-  Time: 11:09
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="aranoua.javaweb.aranouajavawebjspaula.model.Pessoa" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

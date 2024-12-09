@@ -2,13 +2,7 @@
 <%@ page import="aranoua.javaweb.aranouajavawebjspaula.model.Pessoa" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.sql.SQLException" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: alysson.gab
-  Date: 04/12/24
-  Time: 09:59
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
