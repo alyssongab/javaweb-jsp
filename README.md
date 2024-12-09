@@ -5,7 +5,7 @@ Este projeto é uma aplicação web construída com Java, JSP, Tomcat e MySQL, c
 - Java 17
 - JSP (Java Server Pages)
 - MySQL (Versão 8.4.3)
-- MySQL (Versão 8.0.4)
+- MySQL Workbench (Versão 8.0.4)
 - Apache Tomcat (11.0.1)
 - JDBC (Java Database Connectivity)
 ## Funcionalidades
